@@ -1,10 +1,10 @@
 /*index styling*/
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
+body { 
     background-color: #eef0f1;
     background-image: url("../../assets/images/dust_scratches.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
     font-size: 1em;
     line-height: 1.5em;
 }
@@ -28,19 +28,24 @@ h2 {
     margin: 0;
     margin-bottom: 15px;
     padding-bottom: 25px;
+    border-bottom: 2px solid #dddddd;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    border-bottom: 2px solid #dddddd;
 }
 
-.paragraph-align{
-    margin: 1em;
+section {
+    margin: 0 auto;
+    padding: 25px;
+    width: 960px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
 }
 
 section p {
     margin: 0 0 15px 0;
 }
 
+/*don't touch, this works!*/
 footer {
     position: fixed;
     left: 0;
@@ -51,12 +56,8 @@ footer {
     border-top: 5px solid #4aaaa5;   
 }
 
-section {
-    margin: 0 auto;
-    padding: 25px;
-    width: 960px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
+.paragraph-align {
+    margin: 1em;
 }
 
 #bio-image {
