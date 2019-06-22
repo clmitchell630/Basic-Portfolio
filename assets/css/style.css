@@ -83,6 +83,7 @@ footer {
 }
 #headwidth {
     width: 960px;
+    margin: 0 auto;
 }
 .links {
     float: right;
