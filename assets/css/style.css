@@ -14,6 +14,7 @@ body {
     /*header box*/
 
 header {
+    width: 100%;
     margin: 0 0 80px 0;
     padding: 10px 0 0 0;
     text-align: center;
@@ -21,7 +22,7 @@ header {
     border-color: #cccccc;
 }
 
-div h1 {
+h1 {
     margin: 0;
     padding: .5em;
     width: 8em;
@@ -42,38 +43,33 @@ a {
     margin: 0;
 }
 
-.links {
-    float: right;
-    padding: 30px 0 0 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: #777777;
-    text-decoration: none;
-}
-
 #headwidth {
-    width: 1020px;
+    max-width: 1020px;
     margin: 0 auto;
 }
 
         /*link styling*/
 
-#about {
+.links {
     margin: 0;
-    padding: 0 10px 0 10px;
+    float: right;
+    padding: 30px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #777777;
+    text-decoration: none;
 }
 
-#port {
+.links a {
     margin: 0;
     padding: 0 10px 0 10px;
     border-style: solid;
     border-color: #dddddd;
-    border-width: 0 1px 0 1px;
+    border-width: 0 1px 0 0;        
 }
 
-#contact {
-    margin: 0;
-    padding: 0 10px 0 10px;
+.links a.last {
+    border-width: 0;
 }
 
         /*the magic thing that makes my page work*/
@@ -98,7 +94,8 @@ h2 {
 section {
     margin: 0 auto;
     padding: 1.5em;
-    width: 960px;
+    max-width: 960px;
+    min-width: 500px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
 }
@@ -116,7 +113,7 @@ footer {
     width: 100%;
     padding: 20px;
     background-color: #666666;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
 }
 
 /*index.html specific css*/
