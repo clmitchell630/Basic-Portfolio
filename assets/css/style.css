@@ -100,14 +100,14 @@ section {
     background-color: #ffffff;
 }
 
-.paragraph-align {
+.container-align {
     margin: 1em 0 1em 0;
 }
 
     /*shoe box*/
 
 footer {
-    position: fixed;
+    margin: 80px 0 0 0;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -126,4 +126,32 @@ section p {
     height: 200px;
     float: left;
     margin: 0 1em 1em 0;
+}
+
+/*portfolio.html specific css*/
+
+h3 {
+    margin: 0;
+    padding: 8px 0 8px 0;
+    width: 200px;
+    
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 25px;
+    
+}
+
+.portfolio-align {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio-links {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
 }
