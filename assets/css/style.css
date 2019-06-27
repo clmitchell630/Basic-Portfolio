@@ -103,10 +103,9 @@ section {
 
 .container-align {
     margin: 1em 0 1em 0;
+
 }
-
     /*shoe box*/
-
 footer {
     left: 0;
     bottom: 0;
@@ -115,7 +114,6 @@ footer {
     border-top-color: #4aaaa5;
     border-top-style: solid;
 }
-
 .footer-spacer,
 footer {
     margin: 100px 0 0 0;
@@ -147,8 +145,7 @@ h3 {
     text-align: center;
     color: #ffffff;
     position: absolute;
-    bottom: 25px;
-    
+    bottom: 25px; 
 }
 
 .portfolio-align {
