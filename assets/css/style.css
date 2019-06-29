@@ -148,7 +148,7 @@ h3 {
     text-align: center;
     color: #ffffff;
     position: absolute;
-    bottom: 25px; 
+    bottom: 12px; 
 }
 
 .portfolio-align {
@@ -161,6 +161,14 @@ h3 {
     display: inline-block;
     text-align: center;
     margin: 25px;
+}
+
+.portfolio-links:hover {
+    opacity: .5;
+}
+
+.portfolio-links:active {
+    opacity: .8;
 }
 
 /*contact.html specific css*/
