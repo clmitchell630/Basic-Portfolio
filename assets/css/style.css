@@ -38,6 +38,9 @@ a {
     color: #777777;
     text-decoration: none;
 }
+a:hover {
+    color: #595858;
+}
 
 .name-head {
     float: left;
@@ -167,6 +170,7 @@ h3 {
     border: none;
     color: #ffffff;
     padding: 15px 32px;
+    margin: 1px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -176,4 +180,8 @@ h3 {
 .button:hover {
     cursor: pointer;
     background-color: #3f8c88;
+}
+
+.button:active {
+    background-color: #4aaaa5;
 }
